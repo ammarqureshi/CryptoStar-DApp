@@ -1,4 +1,6 @@
-# StarNotaryService-ERC721
+# CryptoStar-DApp-ERC721
+
+Ethereum-based decentralised star notary service using ERC721 tokens
 
 You will first need to compile and test
 
