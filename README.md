@@ -10,7 +10,7 @@ test
 
 Then migrate to a network such as the rinkeby test network with the following steps: 
 
-  * Change the ```truffle-config.js``` settings and add your mnemonic and api key 
+  * In ```truffle-config.js``` add your mnemonic and api key which you can get from Infura:
 
   ```
   const HDWalletProvider = require('truffle-hdwallet-provider');
