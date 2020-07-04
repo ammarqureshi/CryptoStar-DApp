@@ -47,6 +47,13 @@ Then migrate to a network such as the rinkeby test network with the following st
   migrate --reset all --network rinkeby
 
   ```
+  
+  Truffle should deploy your contract to the testnet and provide you with the contract address
+  In this example the contract can be found on Etherscan rinkeby testnet: https://rinkeby.etherscan.io/address/0xA87146752DeFDB84AA79F0a7C72135e7D5dF511E
+  ERC721 Token name: "Star Notary Token"
+  ERC721 Token symbol:  "SNT"
+  ![Screenshot 2020-07-04 at 19 53 36](https://user-images.githubusercontent.com/17296281/86519629-63ca4a80-be34-11ea-89b6-b1c78c762573.png)
+  
   Similarly, you can run on a local testnet with: 
   
   ```
@@ -60,3 +67,8 @@ Run the frontend
 cd app 
 npm run
 ```
+
+Versions used: 
+* Truffle: v5.1.32 
+* openzeppelin-solidity: 3.1.0
+* truffle-hdwallet-provider: 1.0.8
