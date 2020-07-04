@@ -51,7 +51,6 @@ Then migrate to a network such as the rinkeby test network with the following st
   ```
   migrate --reset all 
   ```
-  And then connect with metamask
 
 
 Run the frontend
