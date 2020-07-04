@@ -46,7 +46,7 @@ Then migrate to a network such as the rinkeby test network with the following st
   migrate --reset all --network rinkeby
 
   ```
-  Similarly you can run on a local testnet with: 
+  Similarly, you can run on a local testnet with: 
   
   ```
   migrate --reset all 
