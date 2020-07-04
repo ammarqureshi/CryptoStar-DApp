@@ -1,6 +1,6 @@
 # StarNotaryService-ERC721
 
-1. You will first need to compile and test
+You will first need to compile and test
 
 ```
 truffle develop
@@ -8,7 +8,7 @@ compile
 test
 ```
 
-2. Then migrate to a network such as the rinkeby test network with the following steps: 
+Then migrate to a network such as the rinkeby test network with the following steps: 
 
   1. Change the ```truffle-config.js``` settings and add your mnemonic and api key 
 
@@ -48,7 +48,7 @@ test
   ```
 
 
-3. Run the frontend
+Run the frontend
 
 ```
 cd app 
