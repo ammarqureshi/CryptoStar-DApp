@@ -10,7 +10,7 @@ test
 
 Then migrate to a network such as the rinkeby test network with the following steps: 
 
-  1. Change the ```truffle-config.js``` settings and add your mnemonic and api key 
+  * Change the ```truffle-config.js``` settings and add your mnemonic and api key 
 
   ```
   const HDWalletProvider = require('truffle-hdwallet-provider');
@@ -40,7 +40,7 @@ Then migrate to a network such as the rinkeby test network with the following st
       },
     },
   ```
-  2. Run command to migrate to rinkeby testnet
+  * Run command to migrate to rinkeby testnet
 
   ```
   migrate --reset all --network rinkeby
