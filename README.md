@@ -2,6 +2,17 @@
 
 Ethereum-based decentralised star notary service using ERC721 tokens
 
+  * ERC721 Token name: "Star Notary Token"
+  * ERC721 Token symbol:  "SNT"
+  
+  You can change the ERC721 token's name and symbol by going to ``` migrations/2_deploy_contracts.js ```
+```
+module.exports = function(deployer) {
+  deployer.deploy(StarNotary, "Star Notary Token", "SNT");
+};
+
+```
+
 You will first need to compile and test
 
 ```
@@ -50,8 +61,7 @@ Then migrate to a network such as the rinkeby test network with the following st
   
   Truffle should deploy your contract to the testnet and provide you with the contract address
   In this example the contract can be found on Etherscan rinkeby testnet: https://rinkeby.etherscan.io/address/0xA87146752DeFDB84AA79F0a7C72135e7D5dF511E
-  ERC721 Token name: "Star Notary Token"
-  ERC721 Token symbol:  "SNT"
+  
   ![Screenshot 2020-07-04 at 19 53 36](https://user-images.githubusercontent.com/17296281/86519629-63ca4a80-be34-11ea-89b6-b1c78c762573.png)
   
   Similarly, you can run on a local testnet with: 
