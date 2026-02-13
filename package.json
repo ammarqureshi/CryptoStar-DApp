@@ -109,7 +109,7 @@
     "supports-color": "^7.1.0",
     "to-regex-range": "^5.0.1",
     "truffle": "^5.1.33",
-    "truffle-hdwallet-provider": "^1.0.8",
+    "truffle-hdwallet-provider": "^1.0.17",
     "which": "^2.0.2",
     "which-module": "^2.0.0",
     "wide-align": "^1.1.3",
